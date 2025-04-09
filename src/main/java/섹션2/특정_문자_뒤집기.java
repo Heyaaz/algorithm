@@ -1,3 +1,5 @@
+package 섹션2;
+
 import java.util.Scanner;
 
 /**
