@@ -31,7 +31,7 @@ import java.util.stream.Collectors;
 
 
 
-public class Main4 {
+public class 단어_뒤집기 {
 
   // StringBuilder를 사용한 풀이
   public ArrayList<String> solution(int n, String[] str) {
@@ -76,7 +76,7 @@ public class Main4 {
 
 
   public static void main(String[] args) {
-    Main4 T = new Main4();
+    단어_뒤집기 T = new 단어_뒤집기();
     Scanner kb = new Scanner(System.in);
     int n = kb.nextInt();
     String[] arr = new String[n];

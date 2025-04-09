@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class Main1 {
+public class 문자_찾기 {
 
     /**
      * 설명
@@ -37,7 +37,7 @@ public class Main1 {
     }
 
     public static void main(String[] args) {
-        Main1 T = new Main1();
+        문자_찾기 T = new 문자_찾기();
         Scanner kb = new Scanner(System.in);
         String str = kb.next();
         char c = kb.next().charAt(0);

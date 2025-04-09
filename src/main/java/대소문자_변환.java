@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main2 {
+public class 대소문자_변환 {
 
     /**
      * 설명
@@ -34,7 +34,7 @@ public class Main2 {
     }
 
     public static void main(String[] args) {
-        Main2 T = new Main2();
+        대소문자_변환 T = new 대소문자_변환();
         Scanner kb = new Scanner(System.in);
         String str = kb.next();
         System.out.println(T.solution(str));

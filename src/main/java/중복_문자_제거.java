@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Scanner;
 import java.util.stream.Collectors;
 
@@ -25,7 +23,7 @@ import java.util.stream.Collectors;
  * kset
  */
 
-public class Main6 {
+public class 중복_문자_제거 {
 
   public String solution(String str) {
     String answer = "";
@@ -47,7 +45,7 @@ public class Main6 {
   }
 
   public static void main(String[] args) {
-    Main6 T = new Main6();
+    중복_문자_제거 T = new 중복_문자_제거();
     Scanner kb = new Scanner(System.in);
     String str = kb.nextLine();
     System.out.println(T.solution(str));

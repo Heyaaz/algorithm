@@ -22,7 +22,7 @@ import java.util.Scanner;
  * S#T!EG*b@a
  */
 
-public class Main5 {
+public class 특정_문자_뒤집기 {
 
 
   public String solution(String str) {
@@ -49,7 +49,7 @@ public class Main5 {
 
 
   public static void main(String[] args) {
-    Main5 T = new Main5();
+    특정_문자_뒤집기 T = new 특정_문자_뒤집기();
     Scanner kb = new Scanner(System.in);
     String str = kb.nextLine();
     System.out.println(T.solution(str));
