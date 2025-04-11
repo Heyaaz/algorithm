@@ -66,7 +66,7 @@ public class 뒤집은_소수 {
       arr[i] =kb.nextInt();
     }
     for (int x : T.solution(n, arr)) {
-      System.out.println(x + " ");
+      System.out.print(x + " ");
     }
   }
 }
